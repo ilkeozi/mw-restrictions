@@ -22,7 +22,6 @@ for linksoup in linksoups:
     parent = linksoup.parent.previous_element.previous_element.previous_element
     country = parent
     print(country + "|" + linksoup['href']) 
-
-
+    print(country + "|" + linksoup['href']) 
 
 
